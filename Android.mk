@@ -16,6 +16,11 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+LOCAL_MODULE := Gello
+LOCAL_MODULE_CLASS := APPS
+
+LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
+
 LOCAL_MAVEN_REPO := https://maven.cyanogenmod.org/artifactory/gello_prebuilds
 LOCAL_MAVEN_GROUP := org.cyanogenmod
 LOCAL_MAVEN_VERSION := 15
